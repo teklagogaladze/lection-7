@@ -1,0 +1,52 @@
+body {
+	background-color: green;
+	background-image: url("../images/forest.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.babydeer {
+	width: 250px;
+	top: 210px;
+	position: relative;
+}
+@keyframes deer {
+  from {right: -1000px;}
+  to {right: 400px;}
+}
+.deer {
+    width: 500px;
+    top: 200px;
+    position: relative;
+    animation: deer 90s infinite;
+    animation-name: deer;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    /*animation-direction: alternate;*/
+}
+@keyframes fox {
+  from {left: 100px;}
+  to {left: 800px;}
+}
+.fox {
+	top: 120px;
+	width: 180px;
+    position: relative;
+    animation: deer 90s infinite;
+    animation-name: fox;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+}
+@keyframes ciyvi {
+  from {left: -1010px;}
+  to {left: 600px;}
+}
+.ciyvi {
+	width: 150px;
+	top: 210px;
+    position: relative;
+    animation: deer 1s infinite;
+    animation-name: ciyvi;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+
+}
